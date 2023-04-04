@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea {
+    margin: 0
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: purple;
+}
+
+aside{
+    padding: 2rem;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.boton-menu{
+    background-color: transparent;
+    border: 0;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.numerito{
+    background-color: aliceblue;
+    color: purple;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.boton.carrito.active .numerito{
+    background-color: purple;
+    color: aliceblue;
+}
+
+.texto-footer{
+  color: aliceblue;
+  font-size: 0.85 rem;  
+}
+
+main {
+    background-color: aliceblue;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.titulo-principal {
+  color: purple  
+}
+
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles {
+    background-color: purple;
+    border-radius: 1rem;
+    color: aliceblue;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    
+
+}
+
+.producto-titulo{
+    font-size: 1rem;
+}
+
+.producto-agregar {
+    border: 0;
+    background-color: aliceblue;
+    color: purple;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+
+}
+
+
+
+.carrito-vacio, .carrito-comprado{
+    color: purple;
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(254, 246, 255);
+    color: purple;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.carrito-producto-imagen{
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.disabled {
+    display: none;
+}
