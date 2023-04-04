@@ -18,19 +18,14 @@ a {
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    background-color: purple;
+    background-color: black;
 }
 
 aside{
-    padding: 2rem;
+    padding: 0rem;
     color: aliceblue;
-    position: sticky;
-    top: 0;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -47,13 +42,13 @@ aside{
 }
 .numerito{
     background-color: aliceblue;
-    color: purple;
+    color: black;
     padding: 0.25rem;
     border-radius: 0.25rem;
 }
 
 .boton.carrito.active .numerito{
-    background-color: purple;
+    background-color: black;
     color: aliceblue;
 }
 
@@ -71,7 +66,7 @@ main {
 }
 
 .titulo-principal {
-  color: purple  
+  color: black  
 }
 
 .contenedor-productos{
@@ -86,7 +81,7 @@ main {
 }
 
 .producto-detalles {
-    background-color: purple;
+    background-color:black;
     border-radius: 1rem;
     color: aliceblue;
     text-align: center;
@@ -105,7 +100,7 @@ main {
 .producto-agregar {
     border: 0;
     background-color: aliceblue;
-    color: purple;
+    color: black;
     padding: 0.5rem;
     border-radius: 0.5rem;
     font-weight: bolder;
@@ -115,7 +110,7 @@ main {
 
 
 .carrito-vacio, .carrito-comprado{
-    color: purple;
+    color: black;
 }
 
 .carrito-productos{
@@ -128,7 +123,7 @@ main {
     display: flex;
     justify-content: space-between;
     background-color: rgb(254, 246, 255);
-    color: purple;
+    color: black;
     padding: 1rem;
     border-radius: 1rem;
     align-items: center;
